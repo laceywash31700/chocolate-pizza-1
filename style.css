@@ -1,32 +1,32 @@
-#page-title{
-padding: 10px ;
-margin-left: 100px;
-font-size: 30px;
-}
-#logo-subheader{
-    display: inline;
-}
-#page-title{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
 h1{
     display: inline;
     font-family: 'Satisfy', cursive;
 }
+.logo-subheader{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#page-title{
+font-family: 'Roboto', sans-serif;
+padding: 10px ;
+margin-left: 85px;
+font-size: 60px;
+}
+
 nav{
     display: block;
     float: right;
 } 
 header{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 25;
+display: flex;
+justify-content: space-evenly;
+margin: 25px;
 }
 
 h2 {
-display:inline;
 margin-left: 100px;
+font-family: 'Roboto Mono', monospace;
+font-size: 15px;
 
 }
 
@@ -34,11 +34,14 @@ margin-left: 100px;
 margin: 100px;
 
 }
-
+#recipe{
+text-indent: 50px;
+}
 p{
 margin: 20px 100px 20px 100px;
 font-size: 18px;
 color: darkgray
+
 }
 .checkbox{
     display: flex;
@@ -46,23 +49,35 @@ color: darkgray
 }
 
 #checklist{
-display:flex;
-flex-direction: row;
-background-image: url(https://github.com/codefellows/seattle-code-201n30/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true);
-background-repeat: no-repeat;
-margin: 100px;
+    display:flex;
+    flex-direction: row;
+    background-image: url(https://github.com/codefellows/seattle-code-201n30/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true);
+    background-repeat: no-repeat;
+    margin: 100px;
 }
 
 form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: inline;
     margin: 80px;
-    text-align: left;
     font-family: 'Shantell Sans', cursive;
+}
+label {
+    display: flex;
+    flex-direction: row;
+    width: 200px
+}
+input{
+    display: inline-block;
+    width: 50px;
+}
+
+#blog-author{
+    display: inline;
+    margin:40px;
 }
 h3{
     display: inline;
+    margin:30px;
 }
 button{
     background-color: indianred;
@@ -72,15 +87,16 @@ button{
 #footer-text{
     display: inline-block;
 }
-input{
-    display: inline;
-}
 #text{
     display: flex;
     flex-direction: row;
 }
+#logo-img {
+    text-align: center;
+}
 footer{
     text-align: center;
+    color:darkgray;
 }
 
 
