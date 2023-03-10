@@ -1,11 +1,33 @@
-header{
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  header .page-header {
+    display: flex;
+    flex-direction: row;
+  }
+  .title{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color:black;
+  }
+  .subtitle{
+    font-family: 'Roboto Mono', monospace;
+  }
+  .logo-img {
+    margin: 100px;
+    height:50px;
+  }
+/* header{
 display: flex;
 /* justify-content: space-between; */
-margin: 25px;
+/* margin: 25px;
 }
-span{
+span{ */
     /* display: inline; */
-    font-family: 'Satisfy', cursive;
+    /* font-family: 'Satisfy', cursive;
     font-size: 50px;
     padding:10px;
 }
@@ -19,7 +41,7 @@ span{
 }
 .logo-img {
     height:70px;
-}
+} */ */
 nav{
     /* display: block; */
     float: right;
