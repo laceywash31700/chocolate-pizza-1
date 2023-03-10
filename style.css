@@ -1,27 +1,39 @@
-h1{
-    display: inline;
-    font-family: 'Satisfy', cursive;
+header{
+display: flex;
+/* justify-content: space-between; */
+margin: 25px;
 }
+span{
+    /* display: inline; */
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    padding:10px;
+}
+#top-part{
+    display: flex;
+    flex-direction: column;
+}
+
 .logo-subheader{
     font-family: 'Roboto Mono', monospace;
 }
-
-#page-title{
-font-family: 'Roboto', sans-serif;
-padding: 10px ;
-margin-left: 85px;
-font-size: 60px;
+.logo-img {
+    height:70px;
 }
-
 nav{
-    display: block;
+    /* display: block; */
     float: right;
 } 
-header{
-display: flex;
-justify-content: space-evenly;
-margin: 25px;
+.line-image{
+    background-repeat: repeat-x;
 }
+#page-title{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px ;
+    margin-left: 85px;
+    font-size: 60px;
+    }
+
 
 h2 {
 margin-left: 100px;
