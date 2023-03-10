@@ -70,13 +70,16 @@ input{
     display: inline-block;
     width: 50px;
 }
-
+#author-image{
+    display: flex;
+}
 #blog-author{
-    display: inline;
-    margin:40px;
+    display: flex;
+    margin: 100px;
 }
 h3{
-    display: inline;
+    color: darkgray;
+    display: flex;
     margin:30px;
 }
 button{
@@ -84,13 +87,7 @@ button{
     padding: 15px;
     color: white;
 }
-#footer-text{
-    display: inline-block;
-}
-#text{
-    display: flex;
-    flex-direction: row;
-}
+
 #logo-img {
     text-align: center;
 }
